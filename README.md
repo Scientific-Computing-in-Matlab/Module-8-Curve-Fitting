@@ -12,7 +12,7 @@ At the end of this module, you will be able to
 ## Materials
  
  - The main MLX `./docs/curveFitting.mlx` explains various approaches to curve fitting in Matlab.
- -  `./docs/errorSurface.mlx` may help to get an idea of the error surfaces associated with curve fitting.
+ -  `./docs/errorSurface.mlx` visualizes a so-called error surface associated with curve fitting.
  
  ## Assignments
  
