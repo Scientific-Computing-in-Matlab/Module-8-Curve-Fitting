@@ -27,7 +27,9 @@ Steps:
 1. `iterateFit` should return the same output as `fit`
 1. `iterateFit` should accept the same inputs as `fit`  (including **all** its parameter/value pairs)
 1. `iterateFit` should also accept the following parameter/value pair:
-  - `min` (the lowest starting point for each parameter) `max` (largest starting point) and `n` (the total number of starting points to try).
+  - `min` (a vector with the lowest starting point for each parameter) 
+  - `max` (a vector with largest starting point for each parameter ) 
+  - `n` (the *total* number of starting points to try).
 1. `iterateFit`  should generate `n` random starting positions distributed randomly between `min` and `max` for each parameter, loop over those, and return the best overall solution. Hint use `rand`.
  
 
